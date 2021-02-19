@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    android:background="#262525">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_backToMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:clickable="true"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/abc_vector_test" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textMendaftar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:text="MENDAFTAR"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/inputNamaLengkap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textMendaftar"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:hint="Nama Lengkap"
+            android:inputType="textPersonName"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#000000" />
+        <EditText
+            android:id="@+id/input_usernameDaftar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/inputNamaLengkap"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="1dp"
+            android:ems="10"
+            android:hint="Username"
+            android:inputType="textPersonName"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#000000" />
+        <EditText
+            android:id="@+id/input_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/input_usernameDaftar"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="1dp"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#000000" />
+
+        <EditText
+            android:id="@+id/input_tanggalLahir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/input_email"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="1dp"
+            android:ems="10"
+            android:inputType="date" />
+        <EditText
+            android:id="@+id/input_passwordDaftar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/input_tanggalLahir"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="1dp"
+            android:ems="10"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#000000" />
+        <EditText
+            android:id="@+id/input_konfirmasiPasswordDaftar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/input_passwordDaftar"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="1dp"
+            android:ems="10"
+            android:hint="Konfirmasi Password"
+            android:inputType="textPassword"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#000000" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/input_konfirmasiPasswordDaftar"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="#810606"
+            android:text="DAFTAR" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
