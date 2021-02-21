@@ -49,6 +49,7 @@
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:textColorHint="#000000" />
+
         <EditText
             android:id="@+id/input_usernameDaftar"
             android:layout_width="wrap_content"
@@ -63,6 +64,7 @@
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:textColorHint="#000000" />
+
         <EditText
             android:id="@+id/input_email"
             android:layout_width="wrap_content"
@@ -86,7 +88,9 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="1dp"
             android:ems="10"
-            android:inputType="date" />
+            android:inputType="date"
+            android:textAlignment="center" />
+
         <EditText
             android:id="@+id/input_passwordDaftar"
             android:layout_width="wrap_content"
@@ -101,6 +105,7 @@
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:textColorHint="#000000" />
+
         <EditText
             android:id="@+id/input_konfirmasiPasswordDaftar"
             android:layout_width="wrap_content"

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_graphic_summary"
+            android:icon="@drawable/ic_graphic_summary"
+            android:title="Graphic Summary"/>
+        <item android:id="@+id/nav_categories"
+            android:icon="@drawable/ic_categories"
+            android:title="Categories"/>
+        <item android:id="@+id/nav_export"
+            android:icon="@drawable/ic_export"
+            android:title="Export"/>
+        <item android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_setting"
+            android:title="Setting"/>
+    </group>
+</menu>
