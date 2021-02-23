@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Register"
-    android:background="#262525">
+    android:background="@color/black">
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/btn_backToMain"
@@ -31,7 +31,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="100dp"
             android:text="MENDAFTAR"
-            android:textColor="@color/white"
+            android:textColor="#810606"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -47,8 +47,8 @@
             android:inputType="textPersonName"
             android:text=""
             android:textAlignment="center"
-            android:textColor="#FFFFFF"
-            android:textColorHint="#000000" />
+            android:textColor="#ffffff"
+            android:textColorHint="#A8A7A7" />
 
         <EditText
             android:id="@+id/input_usernameDaftar"
@@ -63,7 +63,7 @@
             android:text=""
             android:textAlignment="center"
             android:textColor="#FFFFFF"
-            android:textColorHint="#000000" />
+            android:textColorHint="#A8A7A7" />
 
         <EditText
             android:id="@+id/input_email"
@@ -78,33 +78,47 @@
             android:text=""
             android:textAlignment="center"
             android:textColor="#FFFFFF"
-            android:textColorHint="#000000" />
+            android:textColorHint="#A8A7A7" />
 
-        <EditText
-            android:id="@+id/input_tanggalLahir"
+        <TextView
+            android:id="@+id/label_tglLahir"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/input_email"
+            android:text="Pilih tanggal lahir: "
+            android:layout_centerInParent="true"
+            android:textSize="15dp"
+            android:layout_marginTop="1dp"
+            android:textColor="#810606"
+            android:layout_below="@+id/input_email"/>
+
+        <Button
+            android:id="@+id/btn_tanggalLahir"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Lahir:"
+            android:textColor="#A8A7A7"
+            style="?android:spinnerStyle"
+            android:layout_below="@+id/label_tglLahir"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="1dp"
-            android:ems="10"
             android:inputType="date"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:onClick="openDatePicker"/>
 
         <EditText
             android:id="@+id/input_passwordDaftar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/input_tanggalLahir"
+            android:layout_below="@+id/btn_tanggalLahir"
             android:layout_centerInParent="true"
             android:layout_marginTop="1dp"
             android:ems="10"
-            android:hint="password"
+            android:hint="Password"
             android:inputType="textPassword"
             android:text=""
             android:textAlignment="center"
             android:textColor="#FFFFFF"
-            android:textColorHint="#000000" />
+            android:textColorHint="#A8A7A7" />
 
         <EditText
             android:id="@+id/input_konfirmasiPasswordDaftar"
@@ -119,7 +133,7 @@
             android:text=""
             android:textAlignment="center"
             android:textColor="#FFFFFF"
-            android:textColorHint="#000000" />
+            android:textColorHint="#A8A7A7" />
 
         <Button
             android:id="@+id/button"
@@ -130,6 +144,5 @@
             android:layout_marginTop="50dp"
             android:backgroundTint="#810606"
             android:text="DAFTAR" />
-
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
