@@ -4,17 +4,21 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.AlertDialog;
 import android.app.DatePickerDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.DatePicker;
+
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.Calendar;
 
 public class Register extends AppCompatActivity {
 
     private DatePickerDialog datePickerDialog;
-    private Button dateButton;
+    private Button dateButton, sign_up2;
+    private FloatingActionButton back;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +27,27 @@ public class Register extends AppCompatActivity {
         initDatePicker();
         dateButton = findViewById(R.id.btn_tanggalLahir);
         dateButton.setText(getTodayDate());
+
+        back = findViewById(R.id.btn_backToMain);
+        sign_up2 = findViewById(R.id.buttonDaftar);
+
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                backtoLoginActivity();
+            }
+        });
+        sign_up2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                backtoLoginActivity();
+            }
+        });
+    }
+
+    private void backtoLoginActivity() {
+        Intent intent = new Intent(this, LoginActivity.class);
+        startActivity(intent);
     }
 
     private String getTodayDate() {
