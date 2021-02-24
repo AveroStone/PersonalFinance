@@ -20,37 +20,449 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"/>
+
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginVertical="30dp"
         android:layout_marginHorizontal="10dp"
-        android:background="#f1f1f1">
+        android:background="#000000">
+
         <TableRow>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Deskripsi"
-                android:textColor="@color/black"
-                android:layout_weight="1"
-                android:gravity="center"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Kategori"
-                android:textColor="@color/black"
-                android:layout_weight="1"
-                android:gravity="center"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Jumlah"
-                android:textColor="@color/black"
+                android:text="2 FEB 2021"
+                android:textStyle="bold"
+                android:textColor="@color/white"
                 android:layout_weight="1"
                 android:gravity="center"/>
         </TableRow>
 
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kategori"
+                android:layout_weight="0"
+                android:textColor="#16701A"
+                android:background="#F1f1f1"
+                android:gravity="center"
+                android:layout_marginRight="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginBottom="1dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Deskripsi"
+                android:layout_weight="2"
+                android:textColor="#16701A"
+                android:background="#F1f1f1"
+                android:gravity="center"
+                android:layout_marginRight="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginBottom="1dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jumlah"
+                android:layout_weight="1"
+                android:textColor="#16701A"
+                android:background="#F1f1f1"
+                android:gravity="center"
+                android:layout_marginRight="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginBottom="1dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Food"
+                android:layout_weight="0"
+                android:gravity="center"
+                android:background="@color/white"
+                android:layout_marginRight="1dp"
+                android:layout_marginHorizontal="1dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nasi Uduk"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:background="@color/white"
+                android:layout_marginRight="1dp"
+                android:layout_marginHorizontal="1dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp.15.000"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@color/white"
+                android:layout_marginRight="1dp"
+                android:layout_marginHorizontal="1dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Parkir"
+                android:layout_weight="0"
+                android:gravity="center"
+                android:background="@color/white"
+                android:layout_marginRight="1dp"
+                android:layout_marginHorizontal="1dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mall Suzuya"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:background="@color/white"
+                android:layout_marginRight="1dp"
+                android:layout_marginHorizontal="1dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp.2.000"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@color/white"
+                android:layout_marginRight="1dp"
+                android:layout_marginHorizontal="1dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pulsa HP"
+                android:layout_weight="0"
+                android:gravity="center"
+                android:background="@color/white"
+                android:layout_marginRight="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginBottom="1dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Telkomsel 100 Ribu"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:background="@color/white"
+                android:layout_marginRight="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginBottom="1dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp.98.000"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@color/white"
+                android:layout_marginRight="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginBottom="1dp"/>
+        </TableRow>
     </TableLayout>
 
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="30dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="#000000">
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15 FEB 2021"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_weight="1"
+                android:gravity="center"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kategori"
+                android:layout_weight="0"
+                android:textColor="#16701A"
+                android:background="#F1f1f1"
+                android:gravity="center"
+                android:layout_marginRight="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginBottom="1dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Deskripsi"
+                android:layout_weight="2"
+                android:textColor="#16701A"
+                android:background="#F1f1f1"
+                android:gravity="center"
+                android:layout_marginRight="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginBottom="1dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jumlah"
+                android:layout_weight="1"
+                android:textColor="#16701A"
+                android:background="#F1f1f1"
+                android:gravity="center"
+                android:layout_marginRight="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginBottom="1dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Token"
+                android:layout_weight="0"
+                android:gravity="center"
+                android:background="@color/white"
+                android:layout_marginRight="1dp"
+                android:layout_marginHorizontal="1dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Token Listrik 100 Ribu"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:background="@color/white"
+                android:layout_marginRight="1dp"
+                android:layout_marginHorizontal="1dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp.102.000"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@color/white"
+                android:layout_marginRight="1dp"
+                android:layout_marginHorizontal="1dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pakaian"
+                android:layout_weight="0"
+                android:gravity="center"
+                android:background="@color/white"
+                android:layout_marginRight="1dp"
+                android:layout_marginHorizontal="1dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Celana Jeans April 77"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:background="@color/white"
+                android:layout_marginRight="1dp"
+                android:layout_marginHorizontal="1dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp.432.000"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@color/white"
+                android:layout_marginRight="1dp"
+                android:layout_marginHorizontal="1dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Obat"
+                android:layout_weight="0"
+                android:gravity="center"
+                android:background="@color/white"
+                android:layout_marginRight="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginBottom="1dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shampo Pantene 980Gram"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:background="@color/white"
+                android:layout_marginRight="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginBottom="1dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp.76.400"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@color/white"
+                android:layout_marginRight="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginBottom="1dp"/>
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="30dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="#000000">
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="23 FEB 2021"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_weight="1"
+                android:gravity="center"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kategori"
+                android:layout_weight="0"
+                android:textColor="#16701A"
+                android:background="#F1f1f1"
+                android:gravity="center"
+                android:layout_marginRight="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginBottom="1dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Deskripsi"
+                android:layout_weight="2"
+                android:textColor="#16701A"
+                android:background="#F1f1f1"
+                android:gravity="center"
+                android:layout_marginRight="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginBottom="1dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jumlah"
+                android:layout_weight="1"
+                android:textColor="#16701A"
+                android:background="#F1f1f1"
+                android:gravity="center"
+                android:layout_marginRight="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginBottom="1dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Food"
+                android:layout_weight="0"
+                android:gravity="center"
+                android:background="@color/white"
+                android:layout_marginRight="1dp"
+                android:layout_marginHorizontal="1dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wall's Magnum Red Velvet"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:background="@color/white"
+                android:layout_marginRight="1dp"
+                android:layout_marginHorizontal="1dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp.22.000"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@color/white"
+                android:layout_marginRight="1dp"
+                android:layout_marginHorizontal="1dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Print"
+                android:layout_weight="0"
+                android:gravity="center"
+                android:background="@color/white"
+                android:layout_marginRight="1dp"
+                android:layout_marginHorizontal="1dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Modul Praktikum 20 Lembar"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:background="@color/white"
+                android:layout_marginRight="1dp"
+                android:layout_marginHorizontal="1dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp.16.000"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@color/white"
+                android:layout_marginRight="1dp"
+                android:layout_marginHorizontal="1dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Food"
+                android:layout_weight="0"
+                android:gravity="center"
+                android:background="@color/white"
+                android:layout_marginRight="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginBottom="1dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sari Roti Coklat Keju"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:background="@color/white"
+                android:layout_marginRight="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginBottom="1dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp.15.000"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@color/white"
+                android:layout_marginRight="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginBottom="1dp"/>
+        </TableRow>
+    </TableLayout>
 </LinearLayout>
