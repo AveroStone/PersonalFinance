@@ -85,7 +85,8 @@
                 android:gravity="center"
                 android:background="@color/white"
                 android:layout_marginRight="1dp"
-                android:layout_marginHorizontal="1dp"/>
+                android:layout_marginHorizontal="1dp"
+                android:textColor="#757575"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -94,7 +95,8 @@
                 android:gravity="center"
                 android:background="@color/white"
                 android:layout_marginRight="1dp"
-                android:layout_marginHorizontal="1dp"/>
+                android:layout_marginHorizontal="1dp"
+                android:textColor="#757575"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -103,7 +105,8 @@
                 android:gravity="center"
                 android:background="@color/white"
                 android:layout_marginRight="1dp"
-                android:layout_marginHorizontal="1dp"/>
+                android:layout_marginHorizontal="1dp"
+                android:textColor="#757575"/>
         </TableRow>
 
         <TableRow>
@@ -115,7 +118,8 @@
                 android:gravity="center"
                 android:background="@color/white"
                 android:layout_marginRight="1dp"
-                android:layout_marginHorizontal="1dp"/>
+                android:layout_marginHorizontal="1dp"
+                android:textColor="#757575"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -124,7 +128,8 @@
                 android:gravity="center"
                 android:background="@color/white"
                 android:layout_marginRight="1dp"
-                android:layout_marginHorizontal="1dp"/>
+                android:layout_marginHorizontal="1dp"
+                android:textColor="#757575"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -133,7 +138,8 @@
                 android:gravity="center"
                 android:background="@color/white"
                 android:layout_marginRight="1dp"
-                android:layout_marginHorizontal="1dp"/>
+                android:layout_marginHorizontal="1dp"
+                android:textColor="#757575"/>
         </TableRow>
 
         <TableRow>
@@ -146,7 +152,8 @@
                 android:background="@color/white"
                 android:layout_marginRight="1dp"
                 android:layout_marginHorizontal="1dp"
-                android:layout_marginBottom="1dp"/>
+                android:layout_marginBottom="1dp"
+                android:textColor="#757575"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -156,7 +163,8 @@
                 android:background="@color/white"
                 android:layout_marginRight="1dp"
                 android:layout_marginHorizontal="1dp"
-                android:layout_marginBottom="1dp"/>
+                android:layout_marginBottom="1dp"
+                android:textColor="#757575"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -166,7 +174,8 @@
                 android:background="@color/white"
                 android:layout_marginRight="1dp"
                 android:layout_marginHorizontal="1dp"
-                android:layout_marginBottom="1dp"/>
+                android:layout_marginBottom="1dp"
+                android:textColor="#757575"/>
         </TableRow>
     </TableLayout>
 
@@ -233,7 +242,8 @@
                 android:gravity="center"
                 android:background="@color/white"
                 android:layout_marginRight="1dp"
-                android:layout_marginHorizontal="1dp"/>
+                android:layout_marginHorizontal="1dp"
+                android:textColor="#757575"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -242,7 +252,8 @@
                 android:gravity="center"
                 android:background="@color/white"
                 android:layout_marginRight="1dp"
-                android:layout_marginHorizontal="1dp"/>
+                android:layout_marginHorizontal="1dp"
+                android:textColor="#757575"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -251,7 +262,8 @@
                 android:gravity="center"
                 android:background="@color/white"
                 android:layout_marginRight="1dp"
-                android:layout_marginHorizontal="1dp"/>
+                android:layout_marginHorizontal="1dp"
+                android:textColor="#757575"/>
         </TableRow>
 
         <TableRow>
@@ -263,7 +275,8 @@
                 android:gravity="center"
                 android:background="@color/white"
                 android:layout_marginRight="1dp"
-                android:layout_marginHorizontal="1dp"/>
+                android:layout_marginHorizontal="1dp"
+                android:textColor="#757575"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -272,7 +285,8 @@
                 android:gravity="center"
                 android:background="@color/white"
                 android:layout_marginRight="1dp"
-                android:layout_marginHorizontal="1dp"/>
+                android:layout_marginHorizontal="1dp"
+                android:textColor="#757575"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -281,7 +295,8 @@
                 android:gravity="center"
                 android:background="@color/white"
                 android:layout_marginRight="1dp"
-                android:layout_marginHorizontal="1dp"/>
+                android:layout_marginHorizontal="1dp"
+                android:textColor="#757575"/>
         </TableRow>
 
         <TableRow>
@@ -294,7 +309,8 @@
                 android:background="@color/white"
                 android:layout_marginRight="1dp"
                 android:layout_marginHorizontal="1dp"
-                android:layout_marginBottom="1dp"/>
+                android:layout_marginBottom="1dp"
+                android:textColor="#757575"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -304,7 +320,8 @@
                 android:background="@color/white"
                 android:layout_marginRight="1dp"
                 android:layout_marginHorizontal="1dp"
-                android:layout_marginBottom="1dp"/>
+                android:layout_marginBottom="1dp"
+                android:textColor="#757575"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -314,7 +331,8 @@
                 android:background="@color/white"
                 android:layout_marginRight="1dp"
                 android:layout_marginHorizontal="1dp"
-                android:layout_marginBottom="1dp"/>
+                android:layout_marginBottom="1dp"
+                android:textColor="#757575"/>
         </TableRow>
     </TableLayout>
 
@@ -381,7 +399,8 @@
                 android:gravity="center"
                 android:background="@color/white"
                 android:layout_marginRight="1dp"
-                android:layout_marginHorizontal="1dp"/>
+                android:layout_marginHorizontal="1dp"
+                android:textColor="#757575"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -390,7 +409,8 @@
                 android:gravity="center"
                 android:background="@color/white"
                 android:layout_marginRight="1dp"
-                android:layout_marginHorizontal="1dp"/>
+                android:layout_marginHorizontal="1dp"
+                android:textColor="#757575"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -399,7 +419,8 @@
                 android:gravity="center"
                 android:background="@color/white"
                 android:layout_marginRight="1dp"
-                android:layout_marginHorizontal="1dp"/>
+                android:layout_marginHorizontal="1dp"
+                android:textColor="#757575"/>
         </TableRow>
 
         <TableRow>
@@ -411,7 +432,8 @@
                 android:gravity="center"
                 android:background="@color/white"
                 android:layout_marginRight="1dp"
-                android:layout_marginHorizontal="1dp"/>
+                android:layout_marginHorizontal="1dp"
+                android:textColor="#757575"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -420,7 +442,8 @@
                 android:gravity="center"
                 android:background="@color/white"
                 android:layout_marginRight="1dp"
-                android:layout_marginHorizontal="1dp"/>
+                android:layout_marginHorizontal="1dp"
+                android:textColor="#757575"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -429,7 +452,8 @@
                 android:gravity="center"
                 android:background="@color/white"
                 android:layout_marginRight="1dp"
-                android:layout_marginHorizontal="1dp"/>
+                android:layout_marginHorizontal="1dp"
+                android:textColor="#757575"/>
         </TableRow>
 
         <TableRow>
@@ -442,7 +466,8 @@
                 android:background="@color/white"
                 android:layout_marginRight="1dp"
                 android:layout_marginHorizontal="1dp"
-                android:layout_marginBottom="1dp"/>
+                android:layout_marginBottom="1dp"
+                android:textColor="#757575"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -452,7 +477,8 @@
                 android:background="@color/white"
                 android:layout_marginRight="1dp"
                 android:layout_marginHorizontal="1dp"
-                android:layout_marginBottom="1dp"/>
+                android:layout_marginBottom="1dp"
+                android:textColor="#757575"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -462,7 +488,8 @@
                 android:background="@color/white"
                 android:layout_marginRight="1dp"
                 android:layout_marginHorizontal="1dp"
-                android:layout_marginBottom="1dp"/>
+                android:layout_marginBottom="1dp"
+                android:textColor="#757575"/>
         </TableRow>
     </TableLayout>
 </LinearLayout>
